@@ -13,7 +13,7 @@ encoder = VoiceEncoder()  # Modelo de Resemblyzer
 whisper_model = load_model("tiny")  # Cambiar a "tiny", "small", etc., si necesitas optimización
 
 # Perfil del conductor autorizado (embeddings pregrabados)
-authorized_voice_paths = ["Volvo.m4a", "Volvo2.m4a", "Volvo3.m4a", "Volvo4.m4a"]  # Archivos de voz del conductor
+authorized_voice_paths = ["Volvo.m4a", "Volvo2.m4a", "Volvo3.m4a", "Volvo4.m4a", "Volvo5.m4a", "Volvo6.m4a", "Volvo7.m4a"]  # Archivos de voz del conductor
 authorized_embeddings = []
 
 for path in authorized_voice_paths:
@@ -50,8 +50,13 @@ def verify_audio(audio_data, threshold=0.75):
     Retorna:
         (bool, str): Un booleano indicando si la voz es del conductor y la transcripción.
     """
-    # Preprocesar el audio
-    # Convertir los datos de audio a float32
+    # Limitar la duración máxima del audio a 30 segundos
+    max_duration = 30  # Duración máxima en segundos
+    max_samples = max_duration * 16000  # Asumiendo una frecuencia de muestreo de 16kHz
+    if len(audio_data) > max_samples:
+        audio_data = audio_data[:max_samples]
+
+    # Convertir los datos de audio a float32 y normalizar
     audio_data = audio_data.astype(np.float32) / 32768.0
 
     # Preprocesar el audio
@@ -60,7 +65,7 @@ def verify_audio(audio_data, threshold=0.75):
     test_embedding = encoder.embed_utterance(wav)
     
     # Calcular la similitud coseno entre las dos voces
-    similarity = np.dot(authorized_embedding, test_embedding)
+    similarity = np.dot(authorized_embedding, test_embedding) / (np.linalg.norm(authorized_embedding) * np.linalg.norm(test_embedding))
     print(f"Similitud calculada: {similarity:.2f}")
 
     # Verificar si la similitud supera el umbral
@@ -69,7 +74,7 @@ def verify_audio(audio_data, threshold=0.75):
         return True, whisper_model.transcribe(audio_data, language="es")["text"]
     else:
         print("Voz no autorizada.")
-        return False, None #whisper_model.transcribe(audio_data, language="es")["text"]
+        return False, None
 
 # Función para escuchar comandos
 def listen_for_commands():
