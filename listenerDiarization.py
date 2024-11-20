@@ -1,73 +1,74 @@
-import vosk
 import sounddevice as sd
-import queue
+import numpy as np
+from vosk import Model, KaldiRecognizer
 from resemblyzer import VoiceEncoder, preprocess_wav
 from pathlib import Path
-import numpy as np
-import whisper
 import json
 
 # Configuración
-KEYWORD = "volvo"
-AUTHORIZED_EMBEDDING = np.load("authorized_user.npy")  # Carga un embedding autorizado
-SAMPLE_RATE = 16000
-MODEL_PATH = "vosk-model-small-es-0.42"  # Modelo de Vosk
-vosk_model = vosk.Model(MODEL_PATH)
+TRIGGER_WORD = "Voro"  # Palabra clave para activar el asistente
+AUTHORIZED_VOICE_PATH = "VolvoMaster.m4a"  # Archivo de referencia de voz
+SAMPLE_RATE = 16000  # Tasa de muestreo
+LISTEN_DURATION = 5  # Segundos de escucha para validación
 
-# Inicializar modelos
-encoder = VoiceEncoder()
-whisper_model = whisper.load_model("base")
+# Cargar el modelo de Vosk (asegúrate de descargar el modelo en español)
+MODEL_PATH = "vosk-model-small-es-0.42"  # Cambia esto si usas otro directorio
+model = Model(MODEL_PATH)
+voice_encoder = VoiceEncoder()
 
-# Cola de audio
-audio_queue = queue.Queue()
+# Cargar voz autorizada
+authorized_voice_wav = preprocess_wav(Path(AUTHORIZED_VOICE_PATH))
+authorized_voice_embedding = voice_encoder.embed_utterance(authorized_voice_wav)
 
-def audio_callback(indata, frames, time, status):
-    if status:
-        print(status)
-    audio_queue.put(bytes(indata))
-    print("Audio data added to queue")
 
-def recognize_keyword():
-    rec = vosk.KaldiRecognizer(vosk_model, SAMPLE_RATE)
-    while True:
-        data = audio_queue.get()
-        if rec.AcceptWaveform(data):
-            result = rec.Result()
-            print(f"Resultado de Vosk: {result}")  # Imprimir resultado de Vosk
-            result_dict = json.loads(result)
-            if 'text' in result_dict and KEYWORD in result_dict['text']:
-                print("Keyword detected!")
-                return
+def record_audio(duration, samplerate):
+    """Graba audio por un tiempo determinado."""
+    print("Escuchando...")
+    audio = sd.rec(int(duration * samplerate), samplerate=samplerate, channels=1, dtype="float32")
+    sd.wait()  # Esperar hasta que termine la grabación
+    return audio.flatten()
 
-def capture_command():
-    print("Listening for command...")
-    rec = vosk.KaldiRecognizer(vosk_model, SAMPLE_RATE)
-    command_audio = []
-    while True:
-        data = audio_queue.get()
-        command_audio.append(data)
-        if rec.AcceptWaveform(data):
-            result = rec.Result()
-            return b''.join(command_audio), result
 
-def process_command(command_audio):
-    wav = np.frombuffer(command_audio, dtype=np.int16)
-    wav = preprocess_wav(wav, SAMPLE_RATE)
-    embedding = encoder.embed_utterance(wav)
-    similarity = np.dot(embedding, AUTHORIZED_EMBEDDING) / (np.linalg.norm(embedding) * np.linalg.norm(AUTHORIZED_EMBEDDING))
-    return similarity
+def detect_trigger_word(audio, samplerate):
+    """Detecta si la palabra clave está en el audio."""
+    print("Procesando para detectar palabra clave...")
+    recognizer = KaldiRecognizer(model, samplerate)
+    audio_data = (audio * 32768).astype(np.int16).tobytes()  # Convertir audio al formato correcto
+    if recognizer.AcceptWaveform(audio_data):
+        result = json.loads(recognizer.Result())
+        print(f"Texto detectado: {result.get('text', '')}")
+        return TRIGGER_WORD in result.get("text", "").lower()
+    return False
+
+
+def validate_voice(audio, samplerate):
+    """Valida si la voz grabada coincide con el usuario autorizado."""
+    print("Validando voz...")
+    wav = preprocess_wav(audio, source_sr=samplerate)
+    embedded_voice = voice_encoder.embed_utterance(wav)
+    similarity = np.dot(authorized_voice_embedding, embedded_voice)
+    print(f"Similitud de voz: {similarity:.2f}")
+    return similarity > 0.60  # Umbral ajustable
+
 
 def main():
-    with sd.InputStream(callback=audio_callback, channels=1, samplerate=SAMPLE_RATE):
-        print("Listening for keyword...")
-        recognize_keyword()
-        command_audio, result = capture_command()
-        similarity = process_command(command_audio)
-        if similarity > 0.6:
-            print(f"Command executed with similarity: {similarity:.2f}")
-        else:
-            print(f"Command failed with similarity: {similarity:.2f}")
-            print(f"Attempted command: {result}")
+    """Ciclo principal de escucha."""
+    while True:
+        # Escucha continuo
+        audio = record_audio(LISTEN_DURATION, SAMPLE_RATE)
+
+        # Detectar palabra clave
+        if detect_trigger_word(audio, SAMPLE_RATE):
+            print("Palabra clave detectada: Volvot")
+            print("Por favor, hable para la validación de voz...")
+
+            # Validar voz
+            validation_audio = record_audio(LISTEN_DURATION, SAMPLE_RATE)
+            if validate_voice(validation_audio, SAMPLE_RATE):
+                print("Acceso permitido. Usuario autenticado.")
+            else:
+                print("Acceso denegado. Usuario no autorizado.")
+
 
 if __name__ == "__main__":
     main()
