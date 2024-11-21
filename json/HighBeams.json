@@ -1,0 +1,124 @@
+{
+    "HighBeams": [
+        {
+            "desc": "luces altas encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces altas activadas",
+            "est": 1
+        },
+        {
+            "desc": "luces de carretera encendidas",
+            "est": 1
+        },
+        {
+            "desc": "faros altos encendidos",
+            "est": 1
+        },
+        {
+            "desc": "luces largas activadas",
+            "est": 1
+        },
+        {
+            "desc": "haz de luces largas encendido",
+            "est": 1
+        },
+        {
+            "desc": "m\u00e1ximas encendidas",
+            "est": 1
+        },
+        {
+            "desc": "fas encendidas",
+            "est": 1
+        },
+        {
+            "desc": "altas est\u00e1n prendidas",
+            "est": 1
+        },
+        {
+            "desc": "altas est\u00e1n encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces altas apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luces altas desactivadas",
+            "est": 0
+        },
+        {
+            "desc": "luces de carretera apagadas",
+            "est": 0
+        },
+        {
+            "desc": "faros altos apagados",
+            "est": 0
+        },
+        {
+            "desc": "luces largas desactivadas",
+            "est": 0
+        },
+        {
+            "desc": "haz de luces largas apagado",
+            "est": 0
+        },
+        {
+            "desc": "m\u00e1ximas apagadas",
+            "est": 0
+        },
+        {
+            "desc": "fas apagadas",
+            "est": 0
+        },
+        {
+            "desc": "altas est\u00e1n apagadas",
+            "est": 0
+        },
+        {
+            "desc": "altas est\u00e1n desactivadas",
+            "est": 0
+        },
+        {
+            "desc": "faros de carretera encendidos",
+            "est": 1
+        },
+        {
+            "desc": "faros de carretera apagados",
+            "est": 0
+        },
+        {
+            "desc": "faroles largos encendidos",
+            "est": 1
+        },
+        {
+            "desc": "faroles largos apagados",
+            "est": 0
+        },
+        {
+            "desc": "altos est\u00e1n encendidos",
+            "est": 1
+        },
+        {
+            "desc": "altos est\u00e1n apagados",
+            "est": 0
+        },
+        {
+            "desc": "haz de luz m\u00e1xima encendido",
+            "est": 1
+        },
+        {
+            "desc": "haz de luz m\u00e1xima apagado",
+            "est": 0
+        },
+        {
+            "desc": "haz de faroles altos encendido",
+            "est": 1
+        },
+        {
+            "desc": "haz de faroles altos apagado",
+            "est": 0
+        }
+    ]
+}

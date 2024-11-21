@@ -1,0 +1,124 @@
+{
+    "ClimateTemp": [
+        {
+            "desc": "temperatura clim\u00e1tica en grados Celsius",
+            "est": "variable"
+        },
+        {
+            "desc": "grado de temperatura del AC",
+            "est": "variable"
+        },
+        {
+            "desc": "ajuste de temperatura del aire acondicionado",
+            "est": "variable"
+        },
+        {
+            "desc": "temperatura configurada en el sistema de clima",
+            "est": "variable"
+        },
+        {
+            "desc": "temperatura del climatizador",
+            "est": "variable"
+        },
+        {
+            "desc": "nivel de temperatura del aire",
+            "est": "variable"
+        },
+        {
+            "desc": "ajuste t\u00e9rmico del aire del veh\u00edculo",
+            "est": "variable"
+        },
+        {
+            "desc": "valor de temperatura clim\u00e1tica",
+            "est": "variable"
+        },
+        {
+            "desc": "grados del control clim\u00e1tico",
+            "est": "variable"
+        },
+        {
+            "desc": "nivel t\u00e9rmico de confort",
+            "est": "variable"
+        },
+        {
+            "desc": "ajuste de temperatura interior",
+            "est": "variable"
+        },
+        {
+            "desc": "programaci\u00f3n de temperatura del clima",
+            "est": "variable"
+        },
+        {
+            "desc": "rango de temperatura actual en habit\u00e1culo",
+            "est": "variable"
+        },
+        {
+            "desc": "settings de temperatura para el AC",
+            "est": "variable"
+        },
+        {
+            "desc": "temperatura objetivo del control clim\u00e1tico",
+            "est": "variable"
+        },
+        {
+            "desc": "valor t\u00e9rmico seleccionado del aire acondicionado",
+            "est": "variable"
+        },
+        {
+            "desc": "medida en grados de la temperatura ambiental",
+            "est": "variable"
+        },
+        {
+            "desc": "ajuste de calor/fr\u00edo del sistema de clima",
+            "est": "variable"
+        },
+        {
+            "desc": "temperatura fijada en el control clim\u00e1tico",
+            "est": "variable"
+        },
+        {
+            "desc": "grado de calor del sistema de aire",
+            "est": "variable"
+        },
+        {
+            "desc": "indicador de temperatura en cabina",
+            "est": "variable"
+        },
+        {
+            "desc": "temperatura seleccionada del climatizador",
+            "est": "variable"
+        },
+        {
+            "desc": "nivel de calor o fr\u00edo establecido",
+            "est": "variable"
+        },
+        {
+            "desc": "escala de temperatura del ambiente interno",
+            "est": "variable"
+        },
+        {
+            "desc": "valor t\u00e9rmico del AC dentro del veh\u00edculo",
+            "est": "variable"
+        },
+        {
+            "desc": "ajuste de grados del aire interno",
+            "est": "variable"
+        },
+        {
+            "desc": "configuraci\u00f3n t\u00e9rmica del aire acondicionado",
+            "est": "variable"
+        },
+        {
+            "desc": "temperatura del aire ajustada por el usuario",
+            "est": "variable"
+        },
+        {
+            "desc": "lectura de temperatura en el control clim\u00e1tico",
+            "est": "variable"
+        },
+        {
+            "desc": "grado de temperatura del sistema de ventilaci\u00f3n",
+            "est": "variable"
+        }
+    ]
+}

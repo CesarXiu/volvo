@@ -1,0 +1,124 @@
+{
+    "LowBeams": [
+        {
+            "desc": "luces bajas encendidas",
+            "est": 1
+        },
+        {
+            "desc": "las luces bajas est\u00e1n prendidas",
+            "est": 1
+        },
+        {
+            "desc": "faro bajo activado",
+            "est": 1
+        },
+        {
+            "desc": "encender luces bajas",
+            "est": 1
+        },
+        {
+            "desc": "luminosidad baja activada",
+            "est": 1
+        },
+        {
+            "desc": "luces cortas funcionando",
+            "est": 1
+        },
+        {
+            "desc": "luminosidad reducida encendida",
+            "est": 1
+        },
+        {
+            "desc": "iluminaci\u00f3n baja activa",
+            "est": 1
+        },
+        {
+            "desc": "faros cortos encendidos",
+            "est": 1
+        },
+        {
+            "desc": "modo luces bajas activado",
+            "est": 1
+        },
+        {
+            "desc": "luces bajas apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luces delanteras cortas apagadas",
+            "est": 0
+        },
+        {
+            "desc": "faro bajo desactivado",
+            "est": 0
+        },
+        {
+            "desc": "apagar luces bajas",
+            "est": 0
+        },
+        {
+            "desc": "luces cortas desactivadas",
+            "est": 0
+        },
+        {
+            "desc": "luminosidad baja apagada",
+            "est": 0
+        },
+        {
+            "desc": "desactivaci\u00f3n de luces bajas",
+            "est": 0
+        },
+        {
+            "desc": "faros cortos apagados",
+            "est": 0
+        },
+        {
+            "desc": "luces bajas no encendidas",
+            "est": 0
+        },
+        {
+            "desc": "estado de iluminaci\u00f3n baja: apagado",
+            "est": 0
+        },
+        {
+            "desc": "las luces bajas est\u00e1n apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luminosidad reducida desactivada",
+            "est": 0
+        },
+        {
+            "desc": "faros de baja intensidad no est\u00e1n en uso",
+            "est": 0
+        },
+        {
+            "desc": "representaci\u00f3n de luces bajas: off",
+            "est": 0
+        },
+        {
+            "desc": "estado luces cortas: desactivado",
+            "est": 0
+        },
+        {
+            "desc": "configuraci\u00f3n de iluminaci\u00f3n baja: encendido",
+            "est": 1
+        },
+        {
+            "desc": "faros de baja activados",
+            "est": 1
+        },
+        {
+            "desc": "luces de cruce encendidas",
+            "est": 1
+        },
+        {
+            "desc": "funcionamiento de luces bajas",
+            "est": 1
+        },
+        {
+            "desc": "luces antiniebla bajas activas",
+            "est": 1
+        }
+    ]
+}

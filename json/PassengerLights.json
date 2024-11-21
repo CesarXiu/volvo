@@ -1,0 +1,124 @@
+{
+    "PassengerLights": [
+        {
+            "desc": "luces del pasajero encendidas",
+            "est": 1
+        },
+        {
+            "desc": "encender luces del pasajero",
+            "est": 1
+        },
+        {
+            "desc": "activar luces del pasajero",
+            "est": 1
+        },
+        {
+            "desc": "luces del pasajero funcionando",
+            "est": 1
+        },
+        {
+            "desc": "las luces del pasajero est\u00e1n prendidas",
+            "est": 1
+        },
+        {
+            "desc": "iluminaci\u00f3n del pasajero encendida",
+            "est": 1
+        },
+        {
+            "desc": "luces del lado del pasajero encendidas",
+            "est": 1
+        },
+        {
+            "desc": "pasajero con luces encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces encendidas del pasajero",
+            "est": 1
+        },
+        {
+            "desc": "luces del pasajero en funcionamiento",
+            "est": 1
+        },
+        {
+            "desc": "luces del pasajero apagadas",
+            "est": 0
+        },
+        {
+            "desc": "apagar luces del pasajero",
+            "est": 0
+        },
+        {
+            "desc": "desactivar luces del pasajero",
+            "est": 0
+        },
+        {
+            "desc": "luces del pasajero no funcionan",
+            "est": 0
+        },
+        {
+            "desc": "las luces del pasajero est\u00e1n apagadas",
+            "est": 0
+        },
+        {
+            "desc": "iluminaci\u00f3n del pasajero apagada",
+            "est": 0
+        },
+        {
+            "desc": "luces del lado del pasajero apagadas",
+            "est": 0
+        },
+        {
+            "desc": "pasajero con luces apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luces apagadas del pasajero",
+            "est": 0
+        },
+        {
+            "desc": "luces del pasajero sin funcionamiento",
+            "est": 0
+        },
+        {
+            "desc": "circuito de las luces del pasajero abierto",
+            "est": 0
+        },
+        {
+            "desc": "sin iluminaci\u00f3n en el \u00e1rea del pasajero",
+            "est": 0
+        },
+        {
+            "desc": "fuente de luz del pasajero no activa",
+            "est": 0
+        },
+        {
+            "desc": "luces inoperables del pasajero",
+            "est": 0
+        },
+        {
+            "desc": "ausencia de luz en el lado del pasajero",
+            "est": 0
+        },
+        {
+            "desc": "l\u00e1mparas del pasajero apagadas",
+            "est": 0
+        },
+        {
+            "desc": "sin energ\u00eda en las luces del pasajero",
+            "est": 0
+        },
+        {
+            "desc": "fallo de iluminaci\u00f3n en el \u00e1rea del pasajero",
+            "est": 0
+        },
+        {
+            "desc": "ninguna luz encendida en asiento del pasajero",
+            "est": 0
+        },
+        {
+            "desc": "luces del pasajero no encendidas",
+            "est": 0
+        }
+    ]
+}

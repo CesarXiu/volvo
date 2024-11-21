@@ -1,0 +1,124 @@
+{
+    "TurnSignalLeft": [
+        {
+            "desc": "enciende la luz direccional izquierda",
+            "est": 1
+        },
+        {
+            "desc": "apaga la luz direccional izquierda",
+            "est": 0
+        },
+        {
+            "desc": "luz indicadora izquierda encendida",
+            "est": 1
+        },
+        {
+            "desc": "luz indicadora izquierda apagada",
+            "est": 0
+        },
+        {
+            "desc": "flecha izquierda activa",
+            "est": 1
+        },
+        {
+            "desc": "flecha izquierda desactivada",
+            "est": 0
+        },
+        {
+            "desc": "amarilla izquierda encendida",
+            "est": 1
+        },
+        {
+            "desc": "amarilla izquierda apagada",
+            "est": 0
+        },
+        {
+            "desc": "indicador izquierdo funcionando",
+            "est": 1
+        },
+        {
+            "desc": "indicador izquierdo no funcionando",
+            "est": 0
+        },
+        {
+            "desc": "luces de giro izquierda encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces de giro izquierda apagadas",
+            "est": 0
+        },
+        {
+            "desc": "se\u00f1al izquierda activa",
+            "est": 1
+        },
+        {
+            "desc": "se\u00f1al izquierda inactiva",
+            "est": 0
+        },
+        {
+            "desc": "secuencia izquierda en marcha",
+            "est": 1
+        },
+        {
+            "desc": "secuencia izquierda detenida",
+            "est": 0
+        },
+        {
+            "desc": "direcci\u00f3n izquierda operativa",
+            "est": 1
+        },
+        {
+            "desc": "direcci\u00f3n izquierda no operativa",
+            "est": 0
+        },
+        {
+            "desc": "foco intermitente izquierda encendido",
+            "est": 1
+        },
+        {
+            "desc": "foco intermitente izquierda apagado",
+            "est": 0
+        },
+        {
+            "desc": "luz parpadeante izquierda encendida",
+            "est": 1
+        },
+        {
+            "desc": "luz parpadeante izquierda apagada",
+            "est": 0
+        },
+        {
+            "desc": "altavoz de se\u00f1al izquierda activo",
+            "est": 1
+        },
+        {
+            "desc": "altavoz de se\u00f1al izquierda inactivo",
+            "est": 0
+        },
+        {
+            "desc": "indicador de giro izquierdo encendido",
+            "est": 1
+        },
+        {
+            "desc": "indicador de giro izquierdo apagado",
+            "est": 0
+        },
+        {
+            "desc": "aviso izquierdo funcionando",
+            "est": 1
+        },
+        {
+            "desc": "aviso izquierdo no funcionando",
+            "est": 0
+        },
+        {
+            "desc": "testigo izquierdo encendido",
+            "est": 1
+        },
+        {
+            "desc": "testigo izquierdo apagado",
+            "est": 0
+        }
+    ]
+}

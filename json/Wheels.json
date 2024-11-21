@@ -1,0 +1,124 @@
+{
+    "WheelsStatus": [
+        {
+            "desc": "las ruedas est\u00e1n girando",
+            "est": 1
+        },
+        {
+            "desc": "las ruedas est\u00e1n en movimiento",
+            "est": 1
+        },
+        {
+            "desc": "est\u00e1n circulando las ruedas",
+            "est": 1
+        },
+        {
+            "desc": "las ruedas funcionan",
+            "est": 1
+        },
+        {
+            "desc": "ruedas activas",
+            "est": 1
+        },
+        {
+            "desc": "el veh\u00edculo est\u00e1 en marcha",
+            "est": 1
+        },
+        {
+            "desc": "las ruedas giran",
+            "est": 1
+        },
+        {
+            "desc": "veh\u00edculo movi\u00e9ndose",
+            "est": 1
+        },
+        {
+            "desc": "las ruedas est\u00e1n operativas",
+            "est": 1
+        },
+        {
+            "desc": "veh\u00edculo en movimiento",
+            "est": 1
+        },
+        {
+            "desc": "ruedas en funcionamiento",
+            "est": 1
+        },
+        {
+            "desc": "las ruedas est\u00e1n detenidas",
+            "est": 0
+        },
+        {
+            "desc": "las ruedas no giran",
+            "est": 0
+        },
+        {
+            "desc": "est\u00e1n paradas las ruedas",
+            "est": 0
+        },
+        {
+            "desc": "las ruedas est\u00e1n inm\u00f3viles",
+            "est": 0
+        },
+        {
+            "desc": "las ruedas no funcionan",
+            "est": 0
+        },
+        {
+            "desc": "ruedas inactivas",
+            "est": 0
+        },
+        {
+            "desc": "veh\u00edculo detenido",
+            "est": 0
+        },
+        {
+            "desc": "veh\u00edculo est\u00e1tico",
+            "est": 0
+        },
+        {
+            "desc": "las ruedas est\u00e1n frenadas",
+            "est": 0
+        },
+        {
+            "desc": "el veh\u00edculo est\u00e1 parado",
+            "est": 0
+        },
+        {
+            "desc": "no se mueven las ruedas",
+            "est": 0
+        },
+        {
+            "desc": "ruedas detenidas",
+            "est": 0
+        },
+        {
+            "desc": "las ruedas no est\u00e1n operativas",
+            "est": 0
+        },
+        {
+            "desc": "veh\u00edculo sin moverse",
+            "est": 0
+        },
+        {
+            "desc": "veh\u00edculo en reposo",
+            "est": 0
+        },
+        {
+            "desc": "las ruedas han cesado el movimiento",
+            "est": 0
+        },
+        {
+            "desc": "no hay movimiento en las ruedas",
+            "est": 0
+        },
+        {
+            "desc": "las ruedas est\u00e1n est\u00e1ticas",
+            "est": 0
+        },
+        {
+            "desc": "las ruedas han parado",
+            "est": 0
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "ClimateControl": [
+        {
+            "desc": "climatizador encendido",
+            "est": 1
+        },
+        {
+            "desc": "aire acondicionado activado",
+            "est": 1
+        },
+        {
+            "desc": "control de clima activo",
+            "est": 1
+        },
+        {
+            "desc": "sistema de control clim\u00e1tico en funcionamiento",
+            "est": 1
+        },
+        {
+            "desc": "modo climatizaci\u00f3n encendido",
+            "est": 1
+        },
+        {
+            "desc": "control de temperatura encendido",
+            "est": 1
+        },
+        {
+            "desc": "ventilaci\u00f3n iniciada",
+            "est": 1
+        },
+        {
+            "desc": "sistema de climatizaci\u00f3n trabajando",
+            "est": 1
+        },
+        {
+            "desc": "aire fr\u00edo/caliente activado",
+            "est": 1
+        },
+        {
+            "desc": "funci\u00f3n de calentamiento o enfriamiento en uso",
+            "est": 1
+        },
+        {
+            "desc": "control de ambiente encendido",
+            "est": 1
+        },
+        {
+            "desc": "aparato climatizador encendido",
+            "est": 1
+        },
+        {
+            "desc": "sistema HVAC en funcionamiento",
+            "est": 1
+        },
+        {
+            "desc": "control clim\u00e1tico ajustado",
+            "est": 1
+        },
+        {
+            "desc": "aire acondicionado funcionando",
+            "est": 1
+        },
+        {
+            "desc": "termoclima encendido",
+            "est": 1
+        },
+        {
+            "desc": "sistema de calefacci\u00f3n/ventilaci\u00f3n en uso",
+            "est": 1
+        },
+        {
+            "desc": "clima regulado",
+            "est": 1
+        },
+        {
+            "desc": "control ambiental operativo",
+            "est": 1
+        },
+        {
+            "desc": "sistema de regulaci\u00f3n t\u00e9rmica activado",
+            "est": 1
+        },
+        {
+            "desc": "climatizaci\u00f3n activada",
+            "est": 1
+        },
+        {
+            "desc": "control clim\u00e1tico apagado",
+            "est": 0
+        },
+        {
+            "desc": "aire acondicionado desactivado",
+            "est": 0
+        },
+        {
+            "desc": "sistema de clima pausado",
+            "est": 0
+        },
+        {
+            "desc": "control clim\u00e1tico detenido",
+            "est": 0
+        },
+        {
+            "desc": "ventilaci\u00f3n apagada",
+            "est": 0
+        },
+        {
+            "desc": "el climatizador no est\u00e1 en uso",
+            "est": 0
+        },
+        {
+            "desc": "HVAC apagado",
+            "est": 0
+        },
+        {
+            "desc": "sistema de control ambiental desactivado",
+            "est": 0
+        },
+        {
+            "desc": "termoclima apagado",
+            "est": 0
+        },
+        {
+            "desc": "dispositivo de control clim\u00e1tico apagado",
+            "est": 0
+        }
+    ]
+}

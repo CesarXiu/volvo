@@ -1,0 +1,124 @@
+{
+    "DriverLights": [
+        {
+            "desc": "las luces del conductor est\u00e1n encendidas",
+            "est": 1
+        },
+        {
+            "desc": "las luces del conductor est\u00e1n apagadas",
+            "est": 0
+        },
+        {
+            "desc": "encender luces del conductor",
+            "est": 1
+        },
+        {
+            "desc": "apagar luces del conductor",
+            "est": 0
+        },
+        {
+            "desc": "estado luces: encendidas",
+            "est": 1
+        },
+        {
+            "desc": "estado luces: apagadas",
+            "est": 0
+        },
+        {
+            "desc": "las luces est\u00e1n activadas",
+            "est": 1
+        },
+        {
+            "desc": "las luces est\u00e1n desactivadas",
+            "est": 0
+        },
+        {
+            "desc": "luces en modo encendido",
+            "est": 1
+        },
+        {
+            "desc": "luces en modo apagado",
+            "est": 0
+        },
+        {
+            "desc": "luces delanteras encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces delanteras apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luces ON",
+            "est": 1
+        },
+        {
+            "desc": "luces OFF",
+            "est": 0
+        },
+        {
+            "desc": "luces est\u00e1n ON",
+            "est": 1
+        },
+        {
+            "desc": "luces est\u00e1n OFF",
+            "est": 0
+        },
+        {
+            "desc": "switch luces: ON",
+            "est": 1
+        },
+        {
+            "desc": "switch luces: OFF",
+            "est": 0
+        },
+        {
+            "desc": "las luces brillan",
+            "est": 1
+        },
+        {
+            "desc": "las luces no brillan",
+            "est": 0
+        },
+        {
+            "desc": "luz activa",
+            "est": 1
+        },
+        {
+            "desc": "luz inactiva",
+            "est": 0
+        },
+        {
+            "desc": "funci\u00f3n de luces activada",
+            "est": 1
+        },
+        {
+            "desc": "funci\u00f3n de luces desactivada",
+            "est": 0
+        },
+        {
+            "desc": "conmutador luces en ON",
+            "est": 1
+        },
+        {
+            "desc": "conmutador luces en OFF",
+            "est": 0
+        },
+        {
+            "desc": "modo conductor: luces activas",
+            "est": 1
+        },
+        {
+            "desc": "modo conductor: luces inactivas",
+            "est": 0
+        },
+        {
+            "desc": "luces rojas encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces rojas apagadas",
+            "est": 0
+        }
+    ]
+}

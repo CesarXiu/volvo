@@ -1,0 +1,124 @@
+{
+    "FogLights": [
+        {
+            "desc": "prende las luces antiniebla",
+            "est": 1
+        },
+        {
+            "desc": "enciende las luces antiniebla",
+            "est": 1
+        },
+        {
+            "desc": "apaga las luces antiniebla",
+            "est": 0
+        },
+        {
+            "desc": "luces antiniebla encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces antiniebla apagadas",
+            "est": 0
+        },
+        {
+            "desc": "antinieblas encendidas",
+            "est": 1
+        },
+        {
+            "desc": "antinieblas apagadas",
+            "est": 0
+        },
+        {
+            "desc": "activa luces antiniebla",
+            "est": 1
+        },
+        {
+            "desc": "desactiva luces antiniebla",
+            "est": 0
+        },
+        {
+            "desc": "enciende luces de niebla",
+            "est": 1
+        },
+        {
+            "desc": "apaga luces de niebla",
+            "est": 0
+        },
+        {
+            "desc": "las luces de niebla est\u00e1n encendidas",
+            "est": 1
+        },
+        {
+            "desc": "las luces de niebla est\u00e1n apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luces de niebla activadas",
+            "est": 1
+        },
+        {
+            "desc": "luces de niebla desactivadas",
+            "est": 0
+        },
+        {
+            "desc": "modo luces antiniebla encendido",
+            "est": 1
+        },
+        {
+            "desc": "modo luces antiniebla apagado",
+            "est": 0
+        },
+        {
+            "desc": "estado luces antiniebla: encendidas",
+            "est": 1
+        },
+        {
+            "desc": "estado luces antiniebla: apagadas",
+            "est": 0
+        },
+        {
+            "desc": "con luces antiniebla",
+            "est": 1
+        },
+        {
+            "desc": "sin luces antiniebla",
+            "est": 0
+        },
+        {
+            "desc": "funcionamiento luces de niebla activado",
+            "est": 1
+        },
+        {
+            "desc": "funcionamiento luces de niebla desactivado",
+            "est": 0
+        },
+        {
+            "desc": "luces de niebla: encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces de niebla: apagadas",
+            "est": 0
+        },
+        {
+            "desc": "funci\u00f3n antiniebla encendida",
+            "est": 1
+        },
+        {
+            "desc": "funci\u00f3n antiniebla apagada",
+            "est": 0
+        },
+        {
+            "desc": "sistema antiniebla operando",
+            "est": 1
+        },
+        {
+            "desc": "sistema antiniebla no operando",
+            "est": 0
+        },
+        {
+            "desc": "utiliza luces de niebla",
+            "est": 1
+        }
+    ]
+}

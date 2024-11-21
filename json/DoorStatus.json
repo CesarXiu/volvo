@@ -1,0 +1,124 @@
+{
+    "DoorStatus": [
+        {
+            "desc": "puerta est\u00e1 abierta",
+            "est": 1
+        },
+        {
+            "desc": "puerta abierta",
+            "est": 1
+        },
+        {
+            "desc": "puerta se encuentra abierta",
+            "est": 1
+        },
+        {
+            "desc": "la puerta est\u00e1 abierta",
+            "est": 1
+        },
+        {
+            "desc": "la puerta se encuentra abierta",
+            "est": 1
+        },
+        {
+            "desc": "la puerta est\u00e1 completamente abierta",
+            "est": 1
+        },
+        {
+            "desc": "puerta no est\u00e1 cerrada",
+            "est": 1
+        },
+        {
+            "desc": "puerta sigue abierta",
+            "est": 1
+        },
+        {
+            "desc": "puerta est\u00e1 cerrada",
+            "est": 0
+        },
+        {
+            "desc": "puerta cerrada",
+            "est": 0
+        },
+        {
+            "desc": "puerta se encuentra cerrada",
+            "est": 0
+        },
+        {
+            "desc": "la puerta est\u00e1 cerrada",
+            "est": 0
+        },
+        {
+            "desc": "la puerta se encuentra cerrada",
+            "est": 0
+        },
+        {
+            "desc": "la puerta est\u00e1 completamente cerrada",
+            "est": 0
+        },
+        {
+            "desc": "puerta no est\u00e1 abierta",
+            "est": 0
+        },
+        {
+            "desc": "puerta sigue cerrada",
+            "est": 0
+        },
+        {
+            "desc": "la puerta permanece abierta",
+            "est": 1
+        },
+        {
+            "desc": "la puerta ha sido abierta",
+            "est": 1
+        },
+        {
+            "desc": "abierta la puerta",
+            "est": 1
+        },
+        {
+            "desc": "cerrada la puerta",
+            "est": 0
+        },
+        {
+            "desc": "la apertura de la puerta",
+            "est": 1
+        },
+        {
+            "desc": "la puerta ha sido cerrada",
+            "est": 0
+        },
+        {
+            "desc": "el estado de la puerta es abierta",
+            "est": 1
+        },
+        {
+            "desc": "el estado de la puerta es cerrado",
+            "est": 0
+        },
+        {
+            "desc": "abierta",
+            "est": 1
+        },
+        {
+            "desc": "cerrada",
+            "est": 0
+        },
+        {
+            "desc": "actualmente abierta",
+            "est": 1
+        },
+        {
+            "desc": "actualmente cerrada",
+            "est": 0
+        },
+        {
+            "desc": "puerta es accesible",
+            "est": 1
+        },
+        {
+            "desc": "puerta est\u00e1 asegurada",
+            "est": 0
+        }
+    ]
+}

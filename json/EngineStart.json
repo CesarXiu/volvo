@@ -1,0 +1,124 @@
+{
+    "EngineStart": [
+        {
+            "desc": "veh\u00edculo encendido",
+            "est": 1
+        },
+        {
+            "desc": "motor en marcha",
+            "est": 1
+        },
+        {
+            "desc": "auto prendido",
+            "est": 1
+        },
+        {
+            "desc": "encendido activado",
+            "est": 1
+        },
+        {
+            "desc": "arranque exitoso",
+            "est": 1
+        },
+        {
+            "desc": "veh\u00edculo apagado",
+            "est": 0
+        },
+        {
+            "desc": "motor detenido",
+            "est": 0
+        },
+        {
+            "desc": "auto apagado",
+            "est": 0
+        },
+        {
+            "desc": "encendido desactivado",
+            "est": 0
+        },
+        {
+            "desc": "sin arranque",
+            "est": 0
+        },
+        {
+            "desc": "marcha iniciada",
+            "est": 1
+        },
+        {
+            "desc": "marcha detenida",
+            "est": 0
+        },
+        {
+            "desc": "estado activo",
+            "est": 1
+        },
+        {
+            "desc": "estado inactivo",
+            "est": 0
+        },
+        {
+            "desc": "funcionamiento iniciado",
+            "est": 1
+        },
+        {
+            "desc": "funcionamiento detenido",
+            "est": 0
+        },
+        {
+            "desc": "sistema encendido",
+            "est": 1
+        },
+        {
+            "desc": "sistema apagado",
+            "est": 0
+        },
+        {
+            "desc": "manejo posible",
+            "est": 1
+        },
+        {
+            "desc": "manejo no posible",
+            "est": 0
+        },
+        {
+            "desc": "veh\u00edculo listo para usar",
+            "est": 1
+        },
+        {
+            "desc": "veh\u00edculo no listo para usar",
+            "est": 0
+        },
+        {
+            "desc": "preparado para conducir",
+            "est": 1
+        },
+        {
+            "desc": "no preparado para conducir",
+            "est": 0
+        },
+        {
+            "desc": "arranque encendido",
+            "est": 1
+        },
+        {
+            "desc": "arranque apagado",
+            "est": 0
+        },
+        {
+            "desc": "control de encendido activado",
+            "est": 1
+        },
+        {
+            "desc": "control de encendido desactivado",
+            "est": 0
+        },
+        {
+            "desc": "auto en marcha",
+            "est": 1
+        },
+        {
+            "desc": "auto detenido",
+            "est": 0
+        }
+    ]
+}

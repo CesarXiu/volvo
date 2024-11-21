@@ -1,0 +1,124 @@
+{
+    "InteriorLights": [
+        {
+            "desc": "prende luces interiores",
+            "est": 1
+        },
+        {
+            "desc": "luces interiores encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces adentro encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces internas prendidas",
+            "est": 1
+        },
+        {
+            "desc": "enciende luces interiores",
+            "est": 1
+        },
+        {
+            "desc": "luces en el interior prendidas",
+            "est": 1
+        },
+        {
+            "desc": "todas las luces interiores encendidas",
+            "est": 1
+        },
+        {
+            "desc": "con luces interiores",
+            "est": 1
+        },
+        {
+            "desc": "iluminacion interna activa",
+            "est": 1
+        },
+        {
+            "desc": "luces de cabina encendidas",
+            "est": 1
+        },
+        {
+            "desc": "prender iluminacion interior",
+            "est": 1
+        },
+        {
+            "desc": "encendido de luces internas",
+            "est": 1
+        },
+        {
+            "desc": "todas las luces adentro encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces en el interior activas",
+            "est": 1
+        },
+        {
+            "desc": "apagado de las luces interiores",
+            "est": 0
+        },
+        {
+            "desc": "apaga luces interiores",
+            "est": 0
+        },
+        {
+            "desc": "luces interiores apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luces internas apagadas",
+            "est": 0
+        },
+        {
+            "desc": "sin luces interiores",
+            "est": 0
+        },
+        {
+            "desc": "luces interiores fuera",
+            "est": 0
+        },
+        {
+            "desc": "luces de interior apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luces adentro apagadas",
+            "est": 0
+        },
+        {
+            "desc": "apagado luces interior",
+            "est": 0
+        },
+        {
+            "desc": "iluminacion interna apagada",
+            "est": 0
+        },
+        {
+            "desc": "luces del interior desactivadas",
+            "est": 0
+        },
+        {
+            "desc": "iluminacion interior inactiva",
+            "est": 0
+        },
+        {
+            "desc": "todas las luces interiores apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luces interiores no encendidas",
+            "est": 0
+        },
+        {
+            "desc": "desactivar luces interiores",
+            "est": 0
+        },
+        {
+            "desc": "luces internas y apagadas",
+            "est": 0
+        }
+    ]
+}

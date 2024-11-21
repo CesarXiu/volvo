@@ -1,0 +1,124 @@
+{
+    "FrontUpperLight": [
+        {
+            "desc": "enciende la luz delantera superior",
+            "est": 1
+        },
+        {
+            "desc": "prende la luz superior frontal",
+            "est": 1
+        },
+        {
+            "desc": "activa la luz superior delantera",
+            "est": 1
+        },
+        {
+            "desc": "luz superior frontal activa",
+            "est": 1
+        },
+        {
+            "desc": "luz superior delantera encendida",
+            "est": 1
+        },
+        {
+            "desc": "la luz frontal superior est\u00e1 encendida",
+            "est": 1
+        },
+        {
+            "desc": "luz delantera superior funcionando",
+            "est": 1
+        },
+        {
+            "desc": "enciende la l\u00e1mpara superior de enfrente",
+            "est": 1
+        },
+        {
+            "desc": "luz frontal superior en funcionamiento",
+            "est": 1
+        },
+        {
+            "desc": "luz superior de la parte frontal operativa",
+            "est": 1
+        },
+        {
+            "desc": "apaga la luz delantera superior",
+            "est": 0
+        },
+        {
+            "desc": "apaga la luz superior frontal",
+            "est": 0
+        },
+        {
+            "desc": "desactiva la luz superior delantera",
+            "est": 0
+        },
+        {
+            "desc": "luz superior frontal desactivada",
+            "est": 0
+        },
+        {
+            "desc": "luz superior delantera apagada",
+            "est": 0
+        },
+        {
+            "desc": "la luz frontal superior est\u00e1 apagada",
+            "est": 0
+        },
+        {
+            "desc": "luz delantera superior no funcionando",
+            "est": 0
+        },
+        {
+            "desc": "apaga la l\u00e1mpara superior de enfrente",
+            "est": 0
+        },
+        {
+            "desc": "luz frontal superior no en funcionamiento",
+            "est": 0
+        },
+        {
+            "desc": "luz superior de la parte frontal no operativa",
+            "est": 0
+        },
+        {
+            "desc": "el faro superior delantero est\u00e1 encendido",
+            "est": 1
+        },
+        {
+            "desc": "el faro superior delantero est\u00e1 apagado",
+            "est": 0
+        },
+        {
+            "desc": "luces frontales superiores activas",
+            "est": 1
+        },
+        {
+            "desc": "luces frontales superiores desactivadas",
+            "est": 0
+        },
+        {
+            "desc": "iluminaci\u00f3n superior delantera encendida",
+            "est": 1
+        },
+        {
+            "desc": "iluminaci\u00f3n superior delantera apagada",
+            "est": 0
+        },
+        {
+            "desc": "faros superiores delanteros encendidos",
+            "est": 1
+        },
+        {
+            "desc": "faros superiores delanteros apagados",
+            "est": 0
+        },
+        {
+            "desc": "luz frontal de arriba encendida",
+            "est": 1
+        },
+        {
+            "desc": "luz frontal de arriba apagada",
+            "est": 0
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "HeadlightStatus": [
+        {
+            "desc": "prende las luces delanteras",
+            "est": 1
+        },
+        {
+            "desc": "enciende las luces",
+            "est": 1
+        },
+        {
+            "desc": "luces encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces delanteras activas",
+            "est": 1
+        },
+        {
+            "desc": "activando luces frontales",
+            "est": 1
+        },
+        {
+            "desc": "luces delanteras en funci\u00f3n",
+            "est": 1
+        },
+        {
+            "desc": "luces alumbrando",
+            "est": 1
+        },
+        {
+            "desc": "focos delanteros encendidos",
+            "est": 1
+        },
+        {
+            "desc": "luces de frente encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces en operaci\u00f3n",
+            "est": 1
+        },
+        {
+            "desc": "luces en funcionamiento",
+            "est": 1
+        },
+        {
+            "desc": "focos frontales activos",
+            "est": 1
+        },
+        {
+            "desc": "luces de carretera encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces de cruce encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces altas activadas",
+            "est": 1
+        },
+        {
+            "desc": "luces bajas activas",
+            "est": 1
+        },
+        {
+            "desc": "apaga las luces delanteras",
+            "est": 0
+        },
+        {
+            "desc": "desactiva las luces",
+            "est": 0
+        },
+        {
+            "desc": "luces apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luces delanteras inactivas",
+            "est": 0
+        },
+        {
+            "desc": "luces frontales desactivadas",
+            "est": 0
+        },
+        {
+            "desc": "luces delanteras no encienden",
+            "est": 0
+        },
+        {
+            "desc": "luces de frente apagadas",
+            "est": 0
+        },
+        {
+            "desc": "focos delanteros apagados",
+            "est": 0
+        },
+        {
+            "desc": "luces no alumbran",
+            "est": 0
+        },
+        {
+            "desc": "luces no en operaci\u00f3n",
+            "est": 0
+        },
+        {
+            "desc": "focos frontales apagados",
+            "est": 0
+        },
+        {
+            "desc": "luces de carretera apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luces de cruce apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luces altas desactivadas",
+            "est": 0
+        },
+        {
+            "desc": "luces bajas inactivas",
+            "est": 0
+        }
+    ]
+}

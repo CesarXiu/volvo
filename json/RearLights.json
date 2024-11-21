@@ -1,0 +1,124 @@
+{
+    "RearLights": [
+        {
+            "desc": "enciende las luces traseras",
+            "est": 1
+        },
+        {
+            "desc": "luces traseras encendidas",
+            "est": 1
+        },
+        {
+            "desc": "prende las luces traseras",
+            "est": 1
+        },
+        {
+            "desc": "luces de atr\u00e1s activadas",
+            "est": 1
+        },
+        {
+            "desc": "las luces traseras est\u00e1n encendidas",
+            "est": 1
+        },
+        {
+            "desc": "activaci\u00f3n de luces traseras",
+            "est": 1
+        },
+        {
+            "desc": "luces traseras en funcionamiento",
+            "est": 1
+        },
+        {
+            "desc": "luces traseras iluminadas",
+            "est": 1
+        },
+        {
+            "desc": "las luces traseras se encuentran prendidas",
+            "est": 1
+        },
+        {
+            "desc": "emisi\u00f3n de luz trasera",
+            "est": 1
+        },
+        {
+            "desc": "apaga las luces traseras",
+            "est": 0
+        },
+        {
+            "desc": "luces traseras apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luces de atr\u00e1s desactivadas",
+            "est": 0
+        },
+        {
+            "desc": "las luces traseras est\u00e1n apagadas",
+            "est": 0
+        },
+        {
+            "desc": "desactivaci\u00f3n de luces traseras",
+            "est": 0
+        },
+        {
+            "desc": "luces traseras sin funcionar",
+            "est": 0
+        },
+        {
+            "desc": "luces traseras no iluminadas",
+            "est": 0
+        },
+        {
+            "desc": "las luces traseras est\u00e1n sin prender",
+            "est": 0
+        },
+        {
+            "desc": "sin emisi\u00f3n de luz trasera",
+            "est": 0
+        },
+        {
+            "desc": "luces de cola encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces de cola apagadas",
+            "est": 0
+        },
+        {
+            "desc": "rear lights on",
+            "est": 1
+        },
+        {
+            "desc": "luces traseras operativas",
+            "est": 1
+        },
+        {
+            "desc": "rear lights off",
+            "est": 0
+        },
+        {
+            "desc": "prender las luces traseras",
+            "est": 1
+        },
+        {
+            "desc": "apagar las luces traseras",
+            "est": 0
+        },
+        {
+            "desc": "activo luces traseras",
+            "est": 1
+        },
+        {
+            "desc": "inactivo luces traseras",
+            "est": 0
+        },
+        {
+            "desc": "se encienden luces traseras",
+            "est": 1
+        },
+        {
+            "desc": "se apagan luces traseras",
+            "est": 0
+        }
+    ]
+}

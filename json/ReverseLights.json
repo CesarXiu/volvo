@@ -1,0 +1,124 @@
+{
+    "ReverseLights": [
+        {
+            "desc": "luces de reversa encendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces traseras activadas",
+            "est": 1
+        },
+        {
+            "desc": "luces de marcha atr\u00e1s prendidas",
+            "est": 1
+        },
+        {
+            "desc": "luces de retroceso encendidas",
+            "est": 1
+        },
+        {
+            "desc": "focos de reversa prendidos",
+            "est": 1
+        },
+        {
+            "desc": "faros de reversa encendidos",
+            "est": 1
+        },
+        {
+            "desc": "luz de marcha atr\u00e1s encendida",
+            "est": 1
+        },
+        {
+            "desc": "focos de marcha atr\u00e1s activos",
+            "est": 1
+        },
+        {
+            "desc": "iluminaci\u00f3n trasera encendida",
+            "est": 1
+        },
+        {
+            "desc": "luces de reversa apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luces traseras desactivadas",
+            "est": 0
+        },
+        {
+            "desc": "luces de marcha atr\u00e1s apagadas",
+            "est": 0
+        },
+        {
+            "desc": "luces de retroceso apagadas",
+            "est": 0
+        },
+        {
+            "desc": "focos de reversa apagados",
+            "est": 0
+        },
+        {
+            "desc": "faros de reversa apagados",
+            "est": 0
+        },
+        {
+            "desc": "luz de marcha atr\u00e1s desactivada",
+            "est": 0
+        },
+        {
+            "desc": "focos de marcha atr\u00e1s inactivos",
+            "est": 0
+        },
+        {
+            "desc": "iluminaci\u00f3n trasera apagada",
+            "est": 0
+        },
+        {
+            "desc": "foco trasero activo",
+            "est": 1
+        },
+        {
+            "desc": "luz trasera prendida",
+            "est": 1
+        },
+        {
+            "desc": "faros traseros en uso",
+            "est": 1
+        },
+        {
+            "desc": "luces traseras en operaci\u00f3n",
+            "est": 1
+        },
+        {
+            "desc": "luces traseras desactivadas",
+            "est": 0
+        },
+        {
+            "desc": "luz de reversa inactiva",
+            "est": 0
+        },
+        {
+            "desc": "foco trasero apagado",
+            "est": 0
+        },
+        {
+            "desc": "luz trasera fuera de uso",
+            "est": 0
+        },
+        {
+            "desc": "faros traseros no en uso",
+            "est": 0
+        },
+        {
+            "desc": "luces de reversa no encendidas",
+            "est": 0
+        },
+        {
+            "desc": "focos de reversa no activados",
+            "est": 0
+        },
+        {
+            "desc": "iluminaci\u00f3n de reversa encendida",
+            "est": 1
+        }
+    ]
+}

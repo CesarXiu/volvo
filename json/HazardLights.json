@@ -1,0 +1,124 @@
+{
+    "HazardLights": [
+        {
+            "desc": "enciende las luces de emergencia",
+            "est": 1
+        },
+        {
+            "desc": "luces intermitentes encendidas",
+            "est": 1
+        },
+        {
+            "desc": "se\u00f1al de peligro activada",
+            "est": 1
+        },
+        {
+            "desc": "luces de advertencia prendidas",
+            "est": 1
+        },
+        {
+            "desc": "indicadores de emergencia encendidos",
+            "est": 1
+        },
+        {
+            "desc": "alerta de peligro visible",
+            "est": 1
+        },
+        {
+            "desc": "flashes encendidos",
+            "est": 1
+        },
+        {
+            "desc": "luces parpadeantes activadas",
+            "est": 1
+        },
+        {
+            "desc": "interruptor de emergencia en ON",
+            "est": 1
+        },
+        {
+            "desc": "luces de precauci\u00f3n encendidas",
+            "est": 1
+        },
+        {
+            "desc": "activa las se\u00f1ales de emergencia",
+            "est": 1
+        },
+        {
+            "desc": "intermitencias en uso",
+            "est": 1
+        },
+        {
+            "desc": "apaga las luces de emergencia",
+            "est": 0
+        },
+        {
+            "desc": "luces intermitentes apagadas",
+            "est": 0
+        },
+        {
+            "desc": "se\u00f1al de peligro desactivada",
+            "est": 0
+        },
+        {
+            "desc": "luces de advertencia apagadas",
+            "est": 0
+        },
+        {
+            "desc": "indicadores de emergencia apagados",
+            "est": 0
+        },
+        {
+            "desc": "alerta de peligro no visible",
+            "est": 0
+        },
+        {
+            "desc": "flashes apagados",
+            "est": 0
+        },
+        {
+            "desc": "luces parpadeantes desactivadas",
+            "est": 0
+        },
+        {
+            "desc": "interruptor de emergencia en OFF",
+            "est": 0
+        },
+        {
+            "desc": "luces de precauci\u00f3n apagadas",
+            "est": 0
+        },
+        {
+            "desc": "desactiva las se\u00f1ales de emergencia",
+            "est": 0
+        },
+        {
+            "desc": "intermitencias no en uso",
+            "est": 0
+        },
+        {
+            "desc": "modo de emergencia activado",
+            "est": 1
+        },
+        {
+            "desc": "modo de emergencia desactivado",
+            "est": 0
+        },
+        {
+            "desc": "veh\u00edculo indicando peligro",
+            "est": 1
+        },
+        {
+            "desc": "veh\u00edculo no indicando peligro",
+            "est": 0
+        },
+        {
+            "desc": "luces de advertencia usando energ\u00eda",
+            "est": 1
+        },
+        {
+            "desc": "luces de advertencia sin usar energ\u00eda",
+            "est": 0
+        }
+    ]
+}
